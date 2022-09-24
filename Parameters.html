@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5501/web3.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parameters</title>
+    <link href="./Parameters_files/css2" rel="stylesheet">
+    <style>
+        * {
+            padding: 5px;
+            margin: 5px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        body{
+            background-image: url(https://i.pinimg.com/736x/eb/13/fc/eb13fcee005870fb5a46ac77adaef8b0.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            }
+
+        table {
+            border: 2px solid;
+            width: 100%;
+            height: 100%;
+        }
+
+        th {
+            border: 2px solid;
+            height: 100%;
+            text-align: center;
+            
+        }
+
+        td {
+            border: 2px none;
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        .heading1 {
+            
+            background-position: 50px;
+            color: white;
+            align-items: center;
+        }
+
+        .heading2 {
+            border: 2px solid;
+            height: 80%;
+            co
+            text-align: center;
+            color: white;
+        }
+
+        .info,
+        .example {
+            color: white;
+            
+            text-align: justify;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading1">
+        <h2>General Car Parameters</h2>
+    </div>
+    <div>
+        <p>Here the following table contains general range of all common Car parameters.</p>
+        <p>Using this ranges user can predict whether the car is in well condition or needs maintainence.</p>
+    </div>
+
+    <table>
+        <thead>
+            <tr class="heading2">
+                <th>Parameter</th>
+                <th>Range</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Battery Life</td>
+                <td>3 to 4 years</td>
+            </tr>
+            <tr>
+                <td>Tyre PSI (Pound-force per square inch)</td>
+                <td>36 PSI (passenegr car) 85 PSI (heavy car)</td>
+            </tr>
+            <tr>
+                <td>PUC Value (% of CO)</td>
+                <td>3 to 3.5 (depends on car)</td>
+            </tr>
+            <tr>
+                <td>Average / Mileage</td>
+                <td>12000 - 15000 year</td>
+            </tr>
+            <tr>
+                <td>Size of Engine</td>
+                <td>1 - 1.5 ltr</td>
+            </tr>
+            <tr>
+                <td>Temperature of Engine</td>
+                <td>195 - 220 °C </td>
+            </tr>
+            <tr>
+                <td>Normal RPM (on highways)</td>
+                <td>1500 to 2000 rpm </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <h2><span style="color:white">Types of Car</span></h2>
+    <table>
+        <thead>
+            <tr class="heading2">
+                <td><b>Hatchback</b></td>
+                <td><b>Sedan</b></td>
+                <td><b>SUV</b></td>
+                <td><b>MUV</b></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="info">
+                <td>Hatchbacks are one of the most popular car body types in terms of overall sales in India. <br> A
+                    hatchback can be defined as a vehicle body type that comprises four doors along with an additional
+                    rear hatch that opens upward to access the boot space.</td>
+
+                <td>Sedans are designed to provide utmost comfort and convenience for passengers both at the front as
+                    well as the rear. <br> The major component of a sedan is its longer body that’s built with a
+                    three-box
+                    configuration consisting of pillars.</td>
+
+                <td>SUV is a car body-type that comprises vehicles that are both passenger vehicles as well as
+                    off-roaders. <br> SUVs are generally large and measure well over the 4 meter mark, with compact SUVs
+                    being the exception, coming under 4 meters. <br> Built with a tall bodyline, SUVs provide the driver
+                    with
+                    a commanding view of the road ahead.</td>
+
+                <td>Multi-utility vehicles (MUVs) or Multi-purpose vehicles (MPVs) are built for maximum practicality
+                    and utility. <br> An MUV vehicle is often dubbed as a people carrier due to its ability to seat as
+                    many
+                    as 10 people. <br> You will often find MUVs being the car of choice for long distance travel due to
+                    their
+                    increased interior space and higher seating capacity.</td>
+            </tr>
+            <tr class="example">
+                <td>
+                    <li>Maruti Suzuki WagonR</li>
+                    <li>Maruti Suzuki Swift</li>
+                </td>
+                <td>
+                    <li>Tata Tigor</li>
+                    <li>Hyundai Aura</li>
+                </td>
+                <td>
+                    <li></li>
+                    <li>Kia Seltos</li>
+                </td>
+                <td>
+                    <li>Maruti Suzuki Ertiga</li>
+                    <li>Renault Triber</li>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
